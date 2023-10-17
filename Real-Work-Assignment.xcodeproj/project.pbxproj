@@ -25,9 +25,24 @@
 		8C7E23E72ADE84B800C59253 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E23E62ADE84B800C59253 /* UIView+Extension.swift */; };
 		8C7E23EA2ADE86FF00C59253 /* AnswerSelectedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E23E92ADE86FF00C59253 /* AnswerSelectedProtocol.swift */; };
 		8C7E23EC2ADE945600C59253 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E23EB2ADE945600C59253 /* UIImageView+Extension.swift */; };
+		8C7E23EF2ADEB44000C59253 /* HomeViewController+Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E23EE2ADEB44000C59253 /* HomeViewController+Timer.swift */; };
+		8C7E23F12ADEC3EC00C59253 /* HomeViewController+ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E23F02ADEC3EC00C59253 /* HomeViewController+ActivityIndicator.swift */; };
+		8C7E23FD2ADECFD000C59253 /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C7E23F42ADECFCF00C59253 /* SF-Pro-Rounded-Regular.otf */; };
+		8C7E23FE2ADECFD000C59253 /* SF-Pro-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C7E23F52ADECFCF00C59253 /* SF-Pro-Rounded-Bold.otf */; };
+		8C7E23FF2ADECFD000C59253 /* SF-Pro-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C7E23F62ADECFCF00C59253 /* SF-Pro-Rounded-Semibold.otf */; };
+		8C7E24002ADECFD000C59253 /* SF-Pro-Rounded-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C7E23F72ADECFCF00C59253 /* SF-Pro-Rounded-Black.otf */; };
+		8C7E24012ADECFD000C59253 /* SF-Pro-Rounded-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C7E23F82ADECFD000C59253 /* SF-Pro-Rounded-Ultralight.otf */; };
+		8C7E24022ADECFD000C59253 /* SF-Pro-Rounded-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C7E23F92ADECFD000C59253 /* SF-Pro-Rounded-Heavy.otf */; };
+		8C7E24032ADECFD000C59253 /* SF-Pro-Rounded-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C7E23FA2ADECFD000C59253 /* SF-Pro-Rounded-Thin.otf */; };
+		8C7E24042ADECFD000C59253 /* SF-Pro-Rounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C7E23FB2ADECFD000C59253 /* SF-Pro-Rounded-Light.otf */; };
+		8C7E24052ADECFD000C59253 /* SF-Pro-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C7E23FC2ADECFD000C59253 /* SF-Pro-Rounded-Medium.otf */; };
+		8CBD7ECD2ADEE04B005E0D86 /* HomeViewController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBD7ECC2ADEE04B005E0D86 /* HomeViewController+CollectionView.swift */; };
+		8CBD7ECF2ADEE081005E0D86 /* HomeViewController+AnswerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBD7ECE2ADEE081005E0D86 /* HomeViewController+AnswerProtocol.swift */; };
+		9E7C7126E737408451749C6C /* Pods_Real_Work_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0CD22CF3FBED0C127E95E9 /* Pods_Real_Work_Assignment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C72FF5DC231F9B791B228B7 /* Pods-Real-Work-Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Real-Work-Assignment.debug.xcconfig"; path = "Target Support Files/Pods-Real-Work-Assignment/Pods-Real-Work-Assignment.debug.xcconfig"; sourceTree = "<group>"; };
 		8C483AEA2ADE5799008F51B6 /* Real-Work-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Real-Work-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C483AED2ADE5799008F51B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C483AEF2ADE5799008F51B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +63,21 @@
 		8C7E23E62ADE84B800C59253 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		8C7E23E92ADE86FF00C59253 /* AnswerSelectedProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerSelectedProtocol.swift; sourceTree = "<group>"; };
 		8C7E23EB2ADE945600C59253 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		8C7E23EE2ADEB44000C59253 /* HomeViewController+Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Timer.swift"; sourceTree = "<group>"; };
+		8C7E23F02ADEC3EC00C59253 /* HomeViewController+ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+ActivityIndicator.swift"; sourceTree = "<group>"; };
+		8C7E23F42ADECFCF00C59253 /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
+		8C7E23F52ADECFCF00C59253 /* SF-Pro-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Bold.otf"; sourceTree = "<group>"; };
+		8C7E23F62ADECFCF00C59253 /* SF-Pro-Rounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Semibold.otf"; sourceTree = "<group>"; };
+		8C7E23F72ADECFCF00C59253 /* SF-Pro-Rounded-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Black.otf"; sourceTree = "<group>"; };
+		8C7E23F82ADECFD000C59253 /* SF-Pro-Rounded-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Ultralight.otf"; sourceTree = "<group>"; };
+		8C7E23F92ADECFD000C59253 /* SF-Pro-Rounded-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Heavy.otf"; sourceTree = "<group>"; };
+		8C7E23FA2ADECFD000C59253 /* SF-Pro-Rounded-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Thin.otf"; sourceTree = "<group>"; };
+		8C7E23FB2ADECFD000C59253 /* SF-Pro-Rounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Light.otf"; sourceTree = "<group>"; };
+		8C7E23FC2ADECFD000C59253 /* SF-Pro-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Medium.otf"; sourceTree = "<group>"; };
+		8CBD7ECC2ADEE04B005E0D86 /* HomeViewController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+CollectionView.swift"; sourceTree = "<group>"; };
+		8CBD7ECE2ADEE081005E0D86 /* HomeViewController+AnswerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+AnswerProtocol.swift"; sourceTree = "<group>"; };
+		A87DE3539807BDFC3EEA4E3F /* Pods-Real-Work-Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Real-Work-Assignment.release.xcconfig"; path = "Target Support Files/Pods-Real-Work-Assignment/Pods-Real-Work-Assignment.release.xcconfig"; sourceTree = "<group>"; };
+		CE0CD22CF3FBED0C127E95E9 /* Pods_Real_Work_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Real_Work_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E7C7126E737408451749C6C /* Pods_Real_Work_Assignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +97,8 @@
 			children = (
 				8C483AEC2ADE5799008F51B6 /* Real-Work-Assignment */,
 				8C483AEB2ADE5799008F51B6 /* Products */,
+				CD25F584A5C089D85588FDF8 /* Pods */,
+				B39041640300B29A8738F3BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +113,7 @@
 		8C483AEC2ADE5799008F51B6 /* Real-Work-Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				8C7E23F22ADECFB300C59253 /* Resources */,
 				8C7E23E82ADE86CF00C59253 /* Protocols */,
 				8C7E23E52ADE84A400C59253 /* Helpers */,
 				8C7E23D82ADE653100C59253 /* Model */,
@@ -90,7 +124,6 @@
 				8C483AEF2ADE5799008F51B6 /* SceneDelegate.swift */,
 				8C483AF12ADE5799008F51B6 /* ViewController.swift */,
 				8C483AF32ADE5799008F51B6 /* Main.storyboard */,
-				8C483AF62ADE579A008F51B6 /* Assets.xcassets */,
 				8C483AF82ADE579A008F51B6 /* LaunchScreen.storyboard */,
 				8C483AFB2ADE579A008F51B6 /* Info.plist */,
 			);
@@ -100,7 +133,7 @@
 		8C7E23D32ADE647F00C59253 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				8C7E23CF2ADE62F600C59253 /* HomeViewController.swift */,
+				8CBD7ECB2ADEE01F005E0D86 /* Home */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -151,6 +184,60 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		8C7E23F22ADECFB300C59253 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C483AF62ADE579A008F51B6 /* Assets.xcassets */,
+				8C7E23F32ADECFBD00C59253 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8C7E23F32ADECFBD00C59253 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8C7E23F72ADECFCF00C59253 /* SF-Pro-Rounded-Black.otf */,
+				8C7E23F52ADECFCF00C59253 /* SF-Pro-Rounded-Bold.otf */,
+				8C7E23F92ADECFD000C59253 /* SF-Pro-Rounded-Heavy.otf */,
+				8C7E23FB2ADECFD000C59253 /* SF-Pro-Rounded-Light.otf */,
+				8C7E23FC2ADECFD000C59253 /* SF-Pro-Rounded-Medium.otf */,
+				8C7E23F42ADECFCF00C59253 /* SF-Pro-Rounded-Regular.otf */,
+				8C7E23F62ADECFCF00C59253 /* SF-Pro-Rounded-Semibold.otf */,
+				8C7E23FA2ADECFD000C59253 /* SF-Pro-Rounded-Thin.otf */,
+				8C7E23F82ADECFD000C59253 /* SF-Pro-Rounded-Ultralight.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8CBD7ECB2ADEE01F005E0D86 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8C7E23CF2ADE62F600C59253 /* HomeViewController.swift */,
+				8CBD7ECC2ADEE04B005E0D86 /* HomeViewController+CollectionView.swift */,
+				8C7E23EE2ADEB44000C59253 /* HomeViewController+Timer.swift */,
+				8C7E23F02ADEC3EC00C59253 /* HomeViewController+ActivityIndicator.swift */,
+				8CBD7ECE2ADEE081005E0D86 /* HomeViewController+AnswerProtocol.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B39041640300B29A8738F3BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE0CD22CF3FBED0C127E95E9 /* Pods_Real_Work_Assignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD25F584A5C089D85588FDF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C72FF5DC231F9B791B228B7 /* Pods-Real-Work-Assignment.debug.xcconfig */,
+				A87DE3539807BDFC3EEA4E3F /* Pods-Real-Work-Assignment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C483AFE2ADE579A008F51B6 /* Build configuration list for PBXNativeTarget "Real-Work-Assignment" */;
 			buildPhases = (
+				9A0E4663931036FC84AFA071 /* [CP] Check Pods Manifest.lock */,
 				8C483AE62ADE5799008F51B6 /* Sources */,
 				8C483AE72ADE5799008F51B6 /* Frameworks */,
 				8C483AE82ADE5799008F51B6 /* Resources */,
+				4FF4B57F44F198EF3E09A097 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,12 +299,63 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C483AFA2ADE579A008F51B6 /* LaunchScreen.storyboard in Resources */,
+				8C7E23FF2ADECFD000C59253 /* SF-Pro-Rounded-Semibold.otf in Resources */,
+				8C7E23FD2ADECFD000C59253 /* SF-Pro-Rounded-Regular.otf in Resources */,
+				8C7E24052ADECFD000C59253 /* SF-Pro-Rounded-Medium.otf in Resources */,
+				8C7E24032ADECFD000C59253 /* SF-Pro-Rounded-Thin.otf in Resources */,
+				8C7E24042ADECFD000C59253 /* SF-Pro-Rounded-Light.otf in Resources */,
+				8C7E24002ADECFD000C59253 /* SF-Pro-Rounded-Black.otf in Resources */,
 				8C483AF72ADE579A008F51B6 /* Assets.xcassets in Resources */,
+				8C7E24022ADECFD000C59253 /* SF-Pro-Rounded-Heavy.otf in Resources */,
 				8C483AF52ADE5799008F51B6 /* Main.storyboard in Resources */,
+				8C7E24012ADECFD000C59253 /* SF-Pro-Rounded-Ultralight.otf in Resources */,
+				8C7E23FE2ADECFD000C59253 /* SF-Pro-Rounded-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FF4B57F44F198EF3E09A097 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Real-Work-Assignment/Pods-Real-Work-Assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Real-Work-Assignment/Pods-Real-Work-Assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Real-Work-Assignment/Pods-Real-Work-Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A0E4663931036FC84AFA071 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Real-Work-Assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8C483AE62ADE5799008F51B6 /* Sources */ = {
@@ -232,9 +372,13 @@
 				8C7E23E02ADE658300C59253 /* APIEndPoints.swift in Sources */,
 				8C483AEE2ADE5799008F51B6 /* AppDelegate.swift in Sources */,
 				8C7E23DC2ADE654600C59253 /* HomeResponseModel.swift in Sources */,
+				8CBD7ECD2ADEE04B005E0D86 /* HomeViewController+CollectionView.swift in Sources */,
 				8C483AF02ADE5799008F51B6 /* SceneDelegate.swift in Sources */,
 				8C7E23DA2ADE653F00C59253 /* HomeRequestModel.swift in Sources */,
+				8C7E23F12ADEC3EC00C59253 /* HomeViewController+ActivityIndicator.swift in Sources */,
 				8C7E23D72ADE650900C59253 /* APIService.swift in Sources */,
+				8C7E23EF2ADEB44000C59253 /* HomeViewController+Timer.swift in Sources */,
+				8CBD7ECF2ADEE081005E0D86 /* HomeViewController+AnswerProtocol.swift in Sources */,
 				8C7E23E22ADE6C1800C59253 /* CustomCollectionViewLayout.swift in Sources */,
 				8C7E23D02ADE62F600C59253 /* HomeViewController.swift in Sources */,
 			);
@@ -383,11 +527,13 @@
 		};
 		8C483AFF2ADE579A008F51B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C72FF5DC231F9B791B228B7 /* Pods-Real-Work-Assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Real-Work-Assignment/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -410,11 +556,13 @@
 		};
 		8C483B002ADE579A008F51B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A87DE3539807BDFC3EEA4E3F /* Pods-Real-Work-Assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Real-Work-Assignment/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

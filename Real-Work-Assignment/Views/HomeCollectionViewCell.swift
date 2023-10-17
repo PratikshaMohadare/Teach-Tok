@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class HomeCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var lblQuestion: UILabel!
@@ -31,12 +32,14 @@ class HomeCollectionViewCell: UICollectionViewCell {
             let paragraphStyle = NSMutableParagraphStyle()
             paragraphStyle.lineSpacing = 2 // Whatever line spacing you want in points
             
-            let string = NSMutableAttributedString(string: data.question, attributes: [NSAttributedString.Key.backgroundColor: UIColor.black.withAlphaComponent(0.5),
+            let string = NSMutableAttributedString(string: data.question, attributes: [NSAttributedString.Key.backgroundColor: UIColor.black.withAlphaComponent(0.6),
                 NSAttributedString.Key.paragraphStyle: paragraphStyle])
             lblQuestion.attributedText = string
             
-            imageViewBackground.loadImage(url: data.image)
-            
+            if let url = URL.init(string: data.image) {
+                imageViewBackground.af.setImage(withURL: url, cacheKey: data.image)
+            }
+
             tableViewAnswers.reloadData()
         }
     }

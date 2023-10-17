@@ -7,6 +7,14 @@
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Rounded-Medium.otf">
+            <string>SFProRounded-Medium</string>
+        </array>
+        <array key="SF-Pro-Rounded-Regular.otf">
+            <string>SFProRounded-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Home-->
         <scene sceneID="tne-QT-ifu">
@@ -44,7 +52,7 @@
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="200" id="SUL-fa-v1Z"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                                            <fontDescription key="fontDescription" name="SFProRounded-Medium" family="SF Pro Rounded" pointSize="22"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -65,9 +73,9 @@
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ib-Rt-LKs">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="308" height="52"/>
                                                                                 <subviews>
-                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5.4 The Compromise of 1850 #apush5_1" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8tb-uY-DaM">
+                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5.4 The Compromise of 1850 #apush5_1" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8tb-uY-DaM">
                                                                                         <rect key="frame" x="8" y="4" width="248" height="44"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                                        <fontDescription key="fontDescription" name="SFProRounded-Regular" family="SF Pro Rounded" pointSize="17"/>
                                                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                         <userDefinedRuntimeAttributes>
@@ -76,6 +84,12 @@
                                                                                             </userDefinedRuntimeAttribute>
                                                                                             <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
                                                                                                 <real key="value" value="2"/>
+                                                                                            </userDefinedRuntimeAttribute>
+                                                                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                                                                <real key="value" value="0.45000000000000001"/>
+                                                                                            </userDefinedRuntimeAttribute>
+                                                                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                             </userDefinedRuntimeAttribute>
                                                                                         </userDefinedRuntimeAttributes>
                                                                                     </label>
@@ -124,7 +138,7 @@
                                                             </connections>
                                                         </tableView>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Paz-yH-z8D">
-                                                            <rect key="frame" x="336" y="350" width="45" height="297"/>
+                                                            <rect key="frame" x="336" y="318" width="45" height="297"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Action Bar" translatesAutoresizingMaskIntoConstraints="NO" id="EEr-XJ-Mub">
                                                                     <rect key="frame" x="0.0" y="0.0" width="45" height="297"/>
@@ -204,7 +218,6 @@
                                                 </view>
                                                 <constraints>
                                                     <constraint firstItem="AXs-WE-kB7" firstAttribute="top" secondItem="5GO-6K-1Mw" secondAttribute="top" constant="80" id="1Sr-RA-4r1"/>
-                                                    <constraint firstAttribute="bottom" secondItem="Paz-yH-z8D" secondAttribute="bottom" constant="12" id="DEV-RA-ElN"/>
                                                     <constraint firstItem="vpa-zu-MXH" firstAttribute="leading" secondItem="5GO-6K-1Mw" secondAttribute="leading" constant="8" id="L0K-bo-OPs"/>
                                                     <constraint firstAttribute="trailing" secondItem="Paz-yH-z8D" secondAttribute="trailing" constant="12" id="Nmn-ba-PxQ"/>
                                                     <constraint firstItem="NPR-nR-NDz" firstAttribute="top" secondItem="5GO-6K-1Mw" secondAttribute="top" id="Oca-Ww-CTp"/>
@@ -214,6 +227,7 @@
                                                     <constraint firstItem="NPR-nR-NDz" firstAttribute="leading" secondItem="5GO-6K-1Mw" secondAttribute="leading" id="Tij-cB-b43"/>
                                                     <constraint firstItem="W0u-fY-VPe" firstAttribute="leading" secondItem="vpa-zu-MXH" secondAttribute="leading" id="UwP-s5-bZt"/>
                                                     <constraint firstItem="7lh-1H-01n" firstAttribute="top" secondItem="W0u-fY-VPe" secondAttribute="bottom" constant="8" id="WNY-qf-oyf"/>
+                                                    <constraint firstItem="Paz-yH-z8D" firstAttribute="bottom" secondItem="W0u-fY-VPe" secondAttribute="bottom" id="ZrE-FC-FOD"/>
                                                     <constraint firstItem="Paz-yH-z8D" firstAttribute="leading" secondItem="i2d-Q2-C2G" secondAttribute="trailing" constant="20" id="at6-UO-Ndc"/>
                                                     <constraint firstItem="7lh-1H-01n" firstAttribute="leading" secondItem="5GO-6K-1Mw" secondAttribute="leading" id="bvl-Vu-6KJ"/>
                                                     <constraint firstAttribute="bottom" secondItem="NPR-nR-NDz" secondAttribute="bottom" id="fgn-oa-VKA"/>
@@ -302,6 +316,10 @@
                                     <constraint firstItem="LKb-pK-vA7" firstAttribute="centerY" secondItem="qcI-WL-ske" secondAttribute="centerY" id="pXN-8h-EP0"/>
                                 </constraints>
                             </view>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="WGf-TM-NZ1">
+                                <rect key="frame" x="178" y="407.66666666666669" width="37" height="37"/>
+                                <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -309,15 +327,19 @@
                             <constraint firstItem="hBp-cu-kkd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="D97-xi-bkD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qcI-WL-ske" secondAttribute="trailing" id="Mqd-k9-U81"/>
                             <constraint firstItem="qcI-WL-ske" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="44" id="WXM-UX-W9u"/>
+                            <constraint firstItem="WGf-TM-NZ1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WhT-CZ-BU7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hBp-cu-kkd" secondAttribute="trailing" id="eEc-u3-bjE"/>
                             <constraint firstItem="qcI-WL-ske" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="n02-fF-zbK"/>
                             <constraint firstItem="hBp-cu-kkd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="on9-te-NgD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hBp-cu-kkd" secondAttribute="bottom" id="tWi-Cw-kNT"/>
+                            <constraint firstItem="WGf-TM-NZ1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xR0-xJ-914"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="Frame 2335" selectedImage="Frame 2335" id="Zve-Rp-ZfV"/>
                     <connections>
+                        <outlet property="activityIndicator" destination="WGf-TM-NZ1" id="cil-Oz-po8"/>
                         <outlet property="collectionViewHome" destination="bE1-H6-pbU" id="W4d-7R-OnW"/>
+                        <outlet property="lblCountDown" destination="FxP-CU-fED" id="Fyw-aB-hLH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

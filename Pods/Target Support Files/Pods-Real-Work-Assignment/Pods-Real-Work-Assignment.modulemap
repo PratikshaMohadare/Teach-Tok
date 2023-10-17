@@ -1,0 +1,6 @@
+framework module Pods_Real_Work_Assignment {
+  umbrella header "Pods-Real-Work-Assignment-umbrella.h"
+
+  export *
+  module * { export * }
+}
