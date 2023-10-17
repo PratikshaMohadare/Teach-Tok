@@ -9,6 +9,10 @@ import UIKit
 
 class HomeAnswerTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var lblAnswer: UILabel!
+    @IBOutlet weak var imgThumb: UIImageView!
+    @IBOutlet weak var viewBackground: UIView!
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

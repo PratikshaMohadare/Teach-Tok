@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct AnswerReveal: Codable {
+    var id: Int = 0
+
+    var correct_options: [ForYouOptions] = [ForYouOptions]()
+}

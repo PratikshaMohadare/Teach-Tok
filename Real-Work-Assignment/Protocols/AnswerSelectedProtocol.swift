@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol AnswerSelectedProtocol : AnyObject {
+    func answerSelected(_ answer: ForYouOptions, questionId: Int)
+}
